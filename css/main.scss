@@ -1,0 +1,126 @@
+---
+
+---
+@import "solorized.scss";
+@import "solorized_syntax.scss";
+@mixin headline { font-family: franklin-gothic-urw, gill-sans, helvetica, sans-serif; font-weight: 900; }
+@mixin article { font-family: Georgia, Helvetica, sans-serif;}
+@mixin code { font-family: 'motor', 'courier', monospace; font-weight: bold;}
+
+html {
+  font-size: 28px;
+  background: $base3;
+  @media screen and (max-width:650px){
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+  }
+}
+body {
+  //width:100%;
+  @include article;
+  color: $base02;
+  margin:0;
+}
+.wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.masthead{
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo{
+  position: absolute;
+  top:-0em;
+  font-size: 0.8em;
+  width:100%;
+  line-height: 1.4em;
+  .logo-wrapper{
+    width:100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 1em;
+    a { 
+      color: $base3; 
+    }
+  }
+  h1 { 
+    background: $base2; 
+    &:hover{ background-color: $orange; }
+    width: 2.1em; 
+    margin:0; 
+    text-transform: uppercase;
+  }
+  span { 
+    display: inline-block; 
+    width: 0.7em;
+  }
+}
+p {
+  line-height: 1.7em;
+}
+img { width: 100%; }
+
+.text{
+  padding: 0 0.8em;
+  max-width: 768px;
+  margin: 0 auto;
+}
+a {
+  color: $blue;
+  &:visited{ color: $blue; }
+  &:hover{ color: $green; }
+}
+code { 
+  @include code; 
+  //background: $base2;
+  //padding: 0 0.2em;
+}
+h1, h2, h3, h4, h5 { 
+  @include headline; 
+}
+
+.post {
+  p { font-size: 1.3em; }
+  p ~ p { font-size: 1em; }
+  sup { line-height:1em; }
+  h1 {
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  > p {
+    margin: 1.5em 0 2em 0;
+  }
+  .footnotes {
+    font-size: 0.5em;
+  }
+  .highlight {
+      font-size: 1em;
+      border: 0.4em dashed $base2;
+      width: 100%;
+      padding: 0 1.5em;
+      position:relative;
+      left:-1.9em;
+      pre { 
+        overflow: hidden; 
+
+      }
+  }
+}
+.home {
+  h2,h3,h4{ text-align: center; margin-bottom: 0;}
+}
+.sub {
+  text-align: center;
+}
+.footer {
+  color: $base1;
+  @include headline;
+  margin-top: 5em;
+  padding: 1em 0;
+  border-top: 0.3em dashed $base2;
+  text-align: center;
+
+}

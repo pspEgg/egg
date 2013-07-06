@@ -1,0 +1,31 @@
+---
+layout: post
+title: Clone & Make Mistakes
+date: 2013-07-04 16:52:04
+sub: make your mac count
+illustration: "/assets/clone_mistakes.png"
+---
+
+# Clone & make<br>mistakes #
+
+I DESTROYED my computer system by mistake[^1]; 
+a clone steps in and takes its place. Knowing that
+my "keyboard shortcuts" will stick around, and more importantly
+that dangerous command line experiments are safe has
+afforded me to build many powerful tools.
+
+Most recent of those is a weird mix of automation tools that 
+make it possible to color correct 100+ video clips 
+in Lightroom. And as I refactor the tools for the command line, cloning has become all the more essential.
+
+Cloning is dumb. it checks bit by bit to make sure two hard drive "clones" are identical. However back-up applications and Time Machine store data their own way. Your customization is much more at the mercy of the apps' restore algorithms, if it is backed up at all.
+
+At the minimum cloning requires a free copy of [SuperDuper][superduper] and an external drive larger than your internal drive.
+Connect the external to your computer and hit "copy" to turn your external into a clone. SuperDuper proves to be reliable by its
+large following. For hard drive, I use [this 2TB portable drive][wd2tb].[^2]
+
+[wd2tb]: http://amzn.to/19XbtV5
+[superduper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[^1]: `rm -R ~`
+[^2]: It's the largest external drive that doesn't require
+    A/C power. SuperDuper clones are bootable albeit a bit slow.

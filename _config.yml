@@ -1,0 +1,5 @@
+name: pspEgg.co
+pygments: true
+markdown: kramdown
+permalink: /:title
+exclude: [dev]

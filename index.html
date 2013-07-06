@@ -1,0 +1,12 @@
+---
+layout: default
+title: pspEgg
+---
+
+<div class="home text">
+{% for p in site.posts %}
+		<h3><a href="{{p.url}}">{{ p.title }}</a></h3>
+		<div class="sub">&ldquo;{{ p.sub }}&rdquo;</div>
+{% endfor %}
+</div>
+

@@ -1,0 +1,16 @@
+.highlight{
+	.c  { color: $base1  } //comment
+	.n  { color: $base01 } //name
+	.nn { color: $base00 } //namespace
+
+	.k  { color: $green  } //keyword
+
+	.nf { color: $blue   } //name.function
+
+	.nc { color: $yellow } //name.class
+	.ss { color: $yellow } //symbols
+
+	.s  { color: $cyan	 } //string
+
+	.sr { color: $red    } //string.regex
+}
