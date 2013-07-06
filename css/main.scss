@@ -21,42 +21,43 @@ body {
   color: $base02;
   margin:0;
 }
-.wrapper{
+a {
+  color: $blue;
+  &:visited{ color: $blue; }
+  &:hover{ color: $green; }
+}
+.wrapper {
   width: 100%;
   overflow: hidden;
 }
-.masthead{
+.masthead { 
   position: relative;
   max-width: 960px;
   margin: 0 auto;
 }
-.logo{
+.logo-wrapper { //matches width and x position of masthead
   position: absolute;
   top:-0em;
   font-size: 0.8em;
   width:100%;
   line-height: 1.4em;
-  .logo-wrapper{
-    width:100%;
+  a.home-link { color: $base3; }
+  h1{ //center like text content
     max-width: 768px;
     margin: 0 auto;
     padding: 0 1em;
-    a { 
-      color: $base3; 
-    }
   }
-  h1 { 
+  .square-logo { //logo-wrapper makes sure this has the correct left margin
     background: $base2; 
     &:hover{ background-color: $orange; }
-    width: 2.1em; 
+    width: 2.2em;
     margin:0; 
     text-transform: uppercase;
-  }
-  span { 
-    display: inline-block; 
-    width: 0.7em;
+    > div { overflow: hidden; }
+    > div > div { float: left; width: 0.7em; }
   }
 }
+
 p {
   line-height: 1.7em;
 }
@@ -67,11 +68,7 @@ img { width: 100%; }
   max-width: 768px;
   margin: 0 auto;
 }
-a {
-  color: $blue;
-  &:visited{ color: $blue; }
-  &:hover{ color: $green; }
-}
+
 code { 
   @include code; 
   //background: $base2;
