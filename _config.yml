@@ -4,6 +4,6 @@ markdown: kramdown
 permalink: /:title
 exclude: [dev]
 prose: 
-	rooturl: '_posts'
-	siteurl: "http://pspegg.co"
-	media: 'assets'
+  rooturl: '_posts'
+  siteurl: "http://pspegg.co"
+  media: 'assets'
