@@ -8,7 +8,7 @@
 @mixin code { font-family: 'motor', 'courier', monospace; font-weight: bold;}
 
 html {
-  font-size: 28px;
+  font-size: 24px;
   background: $base3;
   @media screen and (max-width:650px){
     font-size: 16px;
