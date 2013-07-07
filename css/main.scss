@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .post {
-  p { font-size: 1.3em; }
-  p ~ p { font-size: 1em; }
+  > p { font-size: 1.3em; }
+  > p ~ p { font-size: 1em; }
   sup { line-height:1em; }
   h1 {
     text-align: center;
@@ -91,11 +91,13 @@ h1, h2, h3, h4, h5 {
     margin: 1.5em 0 2em 0;
   }
   .footnotes {
-    font-size: 0.5em;
+    border-top: 2px solid $base2;
+    font-size: 0.8em;
+    padding-top:1em;
   }
   .highlight {
       font-size: 1em;
-      border: 0.4em dashed $base2;
+      border: 0.2em dashed $base2;
       width: 100%;
       padding: 0 1.5em;
       position:relative;
