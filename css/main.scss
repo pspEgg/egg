@@ -1,6 +1,7 @@
 ---
 
 ---
+//@import "typekit.css";
 @import "solorized.scss";
 @import "solorized_syntax.scss";
 @mixin headline { font-family: franklin-gothic-urw, gill-sans, helvetica, sans-serif; font-weight: 900; }
@@ -23,6 +24,8 @@ body {
 }
 a {
   color: $blue;
+  font-weight: 800;
+  text-decoration: none;
   &:visited{ color: $blue; }
   &:hover{ color: $green; }
 }

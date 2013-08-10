@@ -1,0 +1,14 @@
+## "Save Frame" macro
+
+In Final Cut Pro X I get a film stripe I can scrub over to find a frame to export. This macro will:
+
+1. Click at current mouse location. (to select the frame to export)
+2. Select **Save Current Frame...** from menu.[^1]
+3. Hit **Return** Twice. (navigate through dialogue boxes)
+5. Down Arrow. (Load up the Next Clip)
+
+{% highlight bash %}
+mouse click #select frame to export
+{% endhighlight %}
+
+[^1]: Keyboard Maestro 6 Recognizes menu selection.
