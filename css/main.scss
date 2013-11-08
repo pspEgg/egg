@@ -120,9 +120,12 @@ h1, h2, h3, h4, h5 {
 .footer {
   color: $base1;
   @include headline;
+  font-size: 80%;
   margin-top: 5em;
-  padding: 1em 0;
+  margin-bottom: 5em;
+  padding: 1em 1em;
   border-top: 0.3em dashed $base2;
   text-align: center;
-  a { color: inherit; }
+  p { max-width: 320px; margin: 0.5em auto;}
+  a { color: $green; }
 }
