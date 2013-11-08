@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Lightroom do video with Keyboard Maestro
-sub: beyond work-flow automation
+sub: user-interface automation
 
 ---
 

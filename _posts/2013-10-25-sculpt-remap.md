@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sculpt Ergonomic Key Remap
-sub: introductory keyboard remapping
+sub: introductory keyboard remap
 ---
 
 # Sculpt Ergonomic<br>Key Remap
