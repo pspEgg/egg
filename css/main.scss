@@ -99,16 +99,16 @@ h1, h2, h3, h4, h5 {
     padding-top:1em;
   }
   .highlight {
-      font-size: 1em;
-      border: 0.2em dashed $base2;
-      width: 100%;
-      padding: 0 1.5em;
-      position:relative;
-      left:-1.9em;
-      pre { 
-        overflow: hidden; 
+    font-size: 1em;
+    border: 0.2em dashed $base2;
+    width: 100%;
+    padding: 0 1.5em;
+    position:relative;
+    left:-1.9em;
+    pre { 
+      overflow: hidden; 
 
-      }
+    }
   }
 }
 .home {
