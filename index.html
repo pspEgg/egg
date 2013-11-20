@@ -5,9 +5,11 @@ title: pspEgg
 
 <div class="home text">
 {% for p in site.posts %}
+    {% if p.private %}
+    {% else %}
 		<h3><a href="{{p.url}}">{{ p.title }}</a></h3>
 		<div class="sub">&ldquo;{{ p.sub }}&rdquo;</div>
-
+    {% endif %}    
     
 {% endfor %}
 </div>
